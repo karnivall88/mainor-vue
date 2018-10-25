@@ -1,24 +1,33 @@
 <template>
   <div id="app">
     <v-app>
-       <page-header/>
-      <main>
-        <v-container>
-        <v-layout row>
-            <transition name="slide-x-transition">
-          <router-view/>
-            </transition>
-          <v-flex xs4>
-            <v-container>
-            <side-panel/>
-            </v-container>
-          </v-flex>
-        </v-layout>
-        </v-container>
-             </main>
+      <header>
+      <page-header/>
+      <v-parallax
+    dark
+    height="250"
+    src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
+  >
+    <v-layout
+      align-center
+      column
+      justify-center
+    >
+      <h1 class="display-2 font-weight-thin mb-3">KÜ</h1>
+      <h4 class="subheading">Добро пожаловать на домашнюю страницу товарищества</h4>
+    </v-layout>
+  </v-parallax>
+      </header>
+          <main>
+           <v-container>
+          <router-view/> 
+          </v-container>
+           <!-- <side-panel/> -->
+          </main>
     </v-app>
-   
-  </div>
+    
+ </div>
+
 </template>
 
 <script>
@@ -35,17 +44,4 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-.page{
-  position:fixed;
-  width: 18rem;
-  
-}
 </style>

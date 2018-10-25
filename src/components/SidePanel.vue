@@ -1,6 +1,10 @@
 <template>
-<v-toolbar color="secondary" dark>
+
+<v-toolbar color="accent" dark>
     <v-toolbar-title >Информация</v-toolbar-title>
+    <slot>
+
+    </slot>
 </v-toolbar>
 </template>
 
