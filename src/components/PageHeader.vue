@@ -3,8 +3,8 @@
     <!-- <v-toolbar-title>KU</v-toolbar-title> -->
     <v-toolbar-items class="hidden-sm-and-down">
       <v-btn flat to="/">главная</v-btn>
-      <v-btn flat>Календарь</v-btn>
-      <v-btn flat>Голосование</v-btn>
+      <v-btn flat to="calendar">Календарь</v-btn>
+      <v-btn flat to="voting">Голосование</v-btn>
       <v-btn flat>Правила и нормы</v-btn>
     </v-toolbar-items>
     <v-toolbar-items class="hidden-md-and-up">

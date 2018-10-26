@@ -12,17 +12,21 @@
       align-center
       column
       justify-center
-    >
+  >
       <h1 class="display-2 font-weight-thin mb-3">KÜ</h1>
       <h4 class="subheading">Добро пожаловать на домашнюю страницу товарищества</h4>
     </v-layout>
   </v-parallax>
       </header>
           <main>
-           <v-container>
-          <router-view/> 
-          </v-container>
-           <!-- <side-panel/> -->
+            <v-layout row>
+              <v-flex xs12 md8>
+          <router-view/>
+          </v-flex>
+          <v-flex xs12 md4>
+           <side-panel/>
+           </v-flex>
+           </v-layout>
           </main>
     </v-app>
     
@@ -44,4 +48,9 @@ export default {
 </script>
 
 <style>
+.page{
+
+  position: fixed;
+  width: inherit;
+}
 </style>

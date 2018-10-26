@@ -9,10 +9,10 @@ import colors from 'vuetify/es5/util/colors'
 import Vuetify from 'vuetify'
 
 Vue.use(Vuetify, {iconfont: 'mdi'}, {theme:{
-  primary: colors.blue.darken1, //#1E88E5
-  secondary: colors.yellow.darken4,
-  accent: colors.blue.darken4,
-  error: colors.red.darken3
+  primary: colors.blue.darken4,
+  success: colors.green.darken4,
+  error: colors.red.darken3,
+  note: colors.yellow.darken3
 }})
 Vue.config.productionTip = false
 

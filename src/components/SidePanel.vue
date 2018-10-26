@@ -1,11 +1,11 @@
 <template>
-
-<v-toolbar color="accent" dark>
+<v-container >
+<v-toolbar color="primary" dark>
     <v-toolbar-title >Информация</v-toolbar-title>
-    <slot>
-
-    </slot>
 </v-toolbar>
+<slot elevation-2 name="calendar">
+</slot>
+    </v-container>
 </template>
 
 <script>
