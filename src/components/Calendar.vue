@@ -2,7 +2,7 @@
 
 <panel title="Календарь событий">
     <v-container>
-    <p>HELLO </p>
+    <p>HELLO</p>
     </v-container>
 </panel>
 

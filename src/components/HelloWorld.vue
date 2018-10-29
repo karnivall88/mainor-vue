@@ -1,21 +1,19 @@
 <template>
-
 <panel title="Объявление">
   <v-container grid-list-lg>
-    <v-layout column >
+    <v-layout column>
       <v-flex xs12 md6 v-for="message in messages" :key="message.title" >
-          <v-card elevation-3>
+          <v-card hover max-width="75%" elevation-3>
             <v-responsive>
               <v-img
                     src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
                     aspect-ratio="9.75"
                   >
-                  <!-- RETURN BACK TO IMG  -->
                   </v-img>
                   </v-responsive>
-                 <v-card-title primary-title><h3 class="headline mb-0">{{message.title}}<v-badge v-if="message.important" color="error">
+                 <v-card-title primary-title><h3 class="headline mb-0">{{message.title}}<v-badge v-if="message.important" color="error">&nbsp;
                   <span slot="badge">!</span>
-                  <span>&nbsp;</span>
+                  <span></span>
                   </v-badge></h3>
                   </v-card-title>
                   
@@ -56,7 +54,6 @@ export default {
           picture: null,
           important: false
           }
-
   ]
 
     }

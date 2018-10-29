@@ -1,9 +1,9 @@
-<template>
-<v-container >
-    <v-toolbar color="primary" dark>
+<template >
+<v-container>
+    <v-toolbar  color="primary" dark>
         <v-toolbar-title>{{title}}</v-toolbar-title>
     </v-toolbar>
-    <slot>
+    <slot style="heigth:200px;">
     </slot>
     </v-container>
 </template>
