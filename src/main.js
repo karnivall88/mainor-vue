@@ -11,8 +11,8 @@ import Vuetify from 'vuetify'
 Vue.use(Vuetify, {iconfont: 'mdi'}, {theme:{
   prima: colors.blue.darken4,
   seco: colors.blueGrey.darken4,
-  error: colors.red.darken3,
-  note: colors.yellow.darken3
+  error: colors.deepOrange.darken3,
+  note: colors.deepOrange.darken3
 }})
 Vue.config.productionTip = false
 

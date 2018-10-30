@@ -3,7 +3,7 @@
 <v-toolbar color="primary" dark>
     <v-toolbar-title >Информация</v-toolbar-title>
 </v-toolbar>
-<slot elevation-2 name="calendar">
+<slot elevation-2 >
 </slot>
     </v-container>
 </template>

@@ -5,6 +5,7 @@ import Voting from '@/components/Voting'
 import Calendar from '@/components/Calendar'
 import Norms from '@/components/Norms'
 import Login from '@/components/Login'
+import Bills from "@/components/Bills"
 
 Vue.use(Router)
 
@@ -34,6 +35,12 @@ export default new Router({
       path: '/login',
       name: 'login',
       component: Login
+    },
+    {
+      path: '/bills',
+      name: 'bills',
+      component: Bills
     }
+
   ]
 })
