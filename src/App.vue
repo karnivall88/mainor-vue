@@ -6,7 +6,7 @@
       <v-parallax
     dark
     height="250"
-    src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
+    :src="image"
   >
     <v-layout
       align-center
@@ -38,8 +38,12 @@
 import PageHeader from "@/components/PageHeader"
 import SidePanel from "@/components/SidePanel"
 export default {
-  name: 'App',
-
+  data(){
+    return{
+          image: 'https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg',
+    }
+        
+  },
   components:{
     PageHeader,
     SidePanel
