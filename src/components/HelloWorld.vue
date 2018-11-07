@@ -6,7 +6,7 @@
           <v-card hover max-width="75%" elevation-3>
             <v-responsive>
               <v-img
-                    src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
+                    :src = "message.picture"
                     aspect-ratio="9.75"
                   >
                   </v-img>
@@ -38,20 +38,20 @@ export default {
       messages:[
  {
           title:"Замена труб. Отключение воды",
-          body: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-          picture: null,
+          body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nemo sit commodi nostrum? Delectus dignissimos omnis quaerat ex voluptatibus. Pariatur et rem voluptatem ipsum itaque commodi atque adipisci. Quam, error.",
+          picture: "https://images.pexels.com/photos/415945/pexels-photo-415945.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
           important: true
           },
  {
-          title:"Second message",
-          body: "Body of the second message",
-          picture: null,
+          title:"Ремонт дороги",
+          body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nemo sit commodi nostrum? Delectus dignissimos omnis quaerat ex voluptatibus. Pariatur et rem voluptatem ipsum itaque commodi atque adipisci. Quam, error.",
+          picture:"https://images.pexels.com/photos/1321807/pexels-photo-1321807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
           important: false
           },
 {
-          title:"Third message",
-          body: "Body of the third message",
-          picture: null,
+          title:"Уборка снега",
+          body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nemo sit commodi nostrum? Delectus dignissimos omnis quaerat ex voluptatibus. Pariatur et rem voluptatem ipsum itaque commodi atque adipisci. Quam, error.",
+          picture: "https://images.pexels.com/photos/953877/pexels-photo-953877.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
           important: false
           }
   ]
