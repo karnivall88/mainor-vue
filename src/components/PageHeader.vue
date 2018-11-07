@@ -5,7 +5,7 @@
       <v-btn flat to="/">главная</v-btn>
       <v-btn flat to="calendar">Календарь</v-btn>
       <v-btn flat to="voting">Голосование</v-btn>
-      <v-btn flat>Правила и нормы</v-btn>
+      <v-btn flat to="norms">Правила и нормы</v-btn>
     </v-toolbar-items>
     <v-toolbar-items class="hidden-md-and-up">
       <v-btn flat>One</v-btn>
