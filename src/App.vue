@@ -40,7 +40,7 @@ import SidePanel from "@/components/SidePanel"
 export default {
   data(){
     return{
-          image: 'https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg',
+          image: 'https://images.pexels.com/photos/681368/pexels-photo-681368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
     }
         
   },
